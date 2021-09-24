@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Twitter - Stay Connected</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="twitter.css">
+    </head>
+
+    <body>
+        <h1 id="name">Twitter<sup><img id="twitter_logo" src="twitter_logo.png"></sup></h1>
+        <h3 id="instruction">Scroll down</h3>
+
+        <div id="log_in">
+            <img id="goodz" src="logo.png">
+            <h3 id="company_name">Twitter</h3>
+            <p id="company_about">stay CONNECTED with the world</p>
+            <input id="user_name" type="text" placeholder="Enter your username">
+            <br> <br>
+            <button id="join_btn" onclick="addUser()">JOIN</button>
+        </div>
+        <script src="twitter.js"></script>
+    </body>
+</html>
